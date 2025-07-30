@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {".//Feature/login.feature"},  glue="stepdefination")
+@CucumberOptions(features= {".//Feature/loginDDTExcel.feature"},  glue="stepdefination")
 
 public class TestRunner {
 }

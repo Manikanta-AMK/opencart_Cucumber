@@ -23,10 +23,8 @@ public class Hooks {
     public void setup() throws IOException
     {
     	driver=baseclass.initilizeBrowser();
-    	    	
     	p=baseclass.getProperties();
     	driver.get(p.getProperty("url"));
-    	driver.manage().window().maximize();
 	}
 		
     @After
